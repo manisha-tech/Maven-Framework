@@ -79,9 +79,9 @@ public class GuestUserPage extends TestBase {
 			ProceedToCheckout_Button.click();
 			Thread.sleep(5000);
 			
-			Emailaddress.sendKeys("manisha_choudhary@hotmail.com");
+			Emailaddress.sendKeys("");
 			Continue.click();
-			Password.sendKeys("aproject");
+			Password.sendKeys("");
 			Signinbutton.click();
 
 	        Thread.sleep(6000);  
